@@ -1,0 +1,128 @@
+.data-management-container {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.data-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.data-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.export-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.export-btn {
+  background: #27ae60;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.export-btn:hover {
+  background: #219653;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
+}
+
+.import-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.import-group {
+  margin-bottom: 20px;
+}
+
+.import-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #34495e;
+  font-size: 1rem;
+}
+
+.import-file {
+  width: 100%;
+}
+
+.file-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #dce1e5;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-input:hover {
+  border-color: #3498db;
+  background: #f8f9fa;
+}
+
+.file-name {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.file-button {
+  background: #3498db;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.file-input:hover .file-button {
+  background: #2980b9;
+}
+
+.hidden-input {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .data-actions {
+    flex-direction: column;
+  }
+  
+  .export-btn {
+    padding: 15px;
+  }
+}
