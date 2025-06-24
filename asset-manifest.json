@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bookkeeper/static/css/main.f8d49a87.css",
+    "main.js": "/bookkeeper/static/js/main.53b051c2.js",
+    "static/js/453.96453769.chunk.js": "/bookkeeper/static/js/453.96453769.chunk.js",
+    "index.html": "/bookkeeper/index.html",
+    "main.f8d49a87.css.map": "/bookkeeper/static/css/main.f8d49a87.css.map",
+    "main.53b051c2.js.map": "/bookkeeper/static/js/main.53b051c2.js.map",
+    "453.96453769.chunk.js.map": "/bookkeeper/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8d49a87.css",
+    "static/js/main.53b051c2.js"
+  ]
+}
